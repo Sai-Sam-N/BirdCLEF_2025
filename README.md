@@ -61,7 +61,7 @@ EDA helped guide preprocessing, augmentation strategies, and model design.
 
 ---
 
-## 3. Data Preprocessing
+## 3. Data Preprocessing [link to notebook](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/02-birdclef-featureengineering-data-pre-processing.ipynb)
 
 * **Audio Resampling**: Converted all audio to a consistent sample rate (32kHz).
 * **Mono Conversion**: Averaged multi-channel audio to mono.
@@ -74,7 +74,7 @@ EDA helped guide preprocessing, augmentation strategies, and model design.
 
 ---
 
-## 🧠 4. Model Architecture
+## 4. Model Architecture
 
 Used a custom **BirdCLEFModel**, a CNN-based architecture designed to work on Mel Spectrograms. Key components:
 * **Backbone**: CNN (e.g., ResNet-based or EfficientNet pretrained)
@@ -83,7 +83,7 @@ Used a custom **BirdCLEFModel**, a CNN-based architecture designed to work on Me
 
 ---
 
-## 📦 5. Model Loading (Fixing State Dict Mismatch)
+## 5. Model Loading (Fixing State Dict Mismatch)
 
 Loaded a pretrained checkpoint from previous training. Since the model originally expected grayscale spectrograms (1 channel) and the current backbone expected RGB (3 channels):
 
