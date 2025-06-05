@@ -61,7 +61,9 @@ EDA helped guide preprocessing, augmentation strategies, and model design.
 
 ---
 
-## 3. Data Preprocessing [link to notebook](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/02-birdclef-featureengineering-data-pre-processing.ipynb)
+## 3. Data Preprocessing [.ipynb](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/02-birdclef-featureengineering-data-pre-processing.ipynb)
+
+[link to notebook](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/02-birdclef-featureengineering-data-pre-processing.ipynb)
 
 * **Audio Resampling**: Converted all audio to a consistent sample rate (32kHz).
 * **Mono Conversion**: Averaged multi-channel audio to mono.
