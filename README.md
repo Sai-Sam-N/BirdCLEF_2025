@@ -46,7 +46,7 @@ The entire project is organized into the following key stages:
 
 ---
 
-## 2. Exploratory Data Analysis [(EDA)](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/01-birdclef-etl.ipynb)
+## 2. Exploratory Data Analysis [(EDA.ipynb)](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/01-birdclef-etl.ipynb)
 
 [Link to notebook](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/01-birdclef-etl.ipynb), where the following were explored :
 
@@ -76,7 +76,7 @@ EDA helped guide preprocessing, augmentation strategies, and model design.
 
 ---
 
-## 4. Model Architecture
+## 4. Model Architecture [.ipynb](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/03-birdclef-ml-model_gpux2.ipynb)
 
 Used a custom **BirdCLEFModel**, a CNN-based architecture designed to work on Mel Spectrograms. Key components:
 * **Backbone**: CNN (e.g., ResNet-based or EfficientNet pretrained)
@@ -85,7 +85,9 @@ Used a custom **BirdCLEFModel**, a CNN-based architecture designed to work on Me
 
 ---
 
-## 5. Model Loading (Fixing State Dict Mismatch)
+## 5. Model Loading (Fixing State Dict Mismatch) [.ipynb](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/05-birdclef-final-predictions.ipynb)
+
+**Please note** : the notebook has 0 records in the `submission.csv` file since kaggle keeps test data hidden. However, scoring is done internally.
 
 Loaded a pretrained checkpoint from previous training. Since the model originally expected grayscale spectrograms (1 channel) and the current backbone expected RGB (3 channels):
 
