@@ -6,12 +6,12 @@ Problem Statement -
 | -------------------- | ------------------------------------------------------------ |
 | Audio loading & spec | `librosa`, `torchaudio`                                      |
 | ML                   | `PyTorch`                                                    |
-| Pretrained models    | `torchvision`, `panns_inference`, `HuggingFace Transformers` |
+| Pretrained models    | `torchvision`                                                |
 | Visualization        | `matplotlib`, `seaborn`, `IPython.display.Audio`             |
 
 ---
 
-## 📌 Project Overview
+# Project Overview
 
 This repository contains my solution for the **\birdclef-2025** on [Kaggle](https://www.kaggle.com/competitions/birdclef-2025/overview). 
 
@@ -26,7 +26,7 @@ My final model achieved a **public leaderboard score of `0.663`**, and this READ
 
 ---
 
-## 📌 Project Structure
+# Project Structure
 
 The entire project is organized into the following key stages:
 
