@@ -48,7 +48,7 @@ The entire project is organized into the following key stages:
 
 ## 2. Exploratory Data Analysis [(EDA)](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/01-birdclef-etl.ipynb)
 
-I explored:
+[Link to notebook](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/01-birdclef-etl.ipynb), where the following were explored :
 
 * **Label Distribution**: Identified class imbalance in bird species.
 * **Location/Geography**: Verified metadata includes lat/lon and site info.
