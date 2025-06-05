@@ -46,7 +46,7 @@ The entire project is organized into the following key stages:
 
 ---
 
-## 2. Exploratory Data Analysis (EDA)
+## 2. Exploratory Data Analysis [(EDA)](https://github.com/Sai-Sam-N/BirdCLEF_2025/blob/main/01-birdclef-etl.ipynb)
 
 I explored:
 
