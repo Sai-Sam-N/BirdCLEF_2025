@@ -1,6 +1,6 @@
 # BirdCLEF 2025 : Kaggle Competition Solution
 
-Problem Statement - 
+## Tech Stack used
 
 | Task                 | Library                                                      |
 | -------------------- | ------------------------------------------------------------ |
