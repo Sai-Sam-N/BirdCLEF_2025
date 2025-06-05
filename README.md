@@ -5,11 +5,9 @@ Problem Statement -
 | Task                 | Library                                                      |
 | -------------------- | ------------------------------------------------------------ |
 | Audio loading & spec | `librosa`, `torchaudio`                                      |
-| ML                   | `PyTorch`, `fastai`, `Keras`                                 |
+| ML                   | `PyTorch`                                                    |
 | Pretrained models    | `torchvision`, `panns_inference`, `HuggingFace Transformers` |
 | Visualization        | `matplotlib`, `seaborn`, `IPython.display.Audio`             |
-| Audio augmentation   | `torch-audiomentations`, `audiomentations`                   |
-
 
 ---
 
